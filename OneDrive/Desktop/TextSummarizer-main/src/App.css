@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: #d1ffd1;
+  display: flex;
+  padding: 20px 0 20px 90%;
+}
+
+.header-title {
+  font-size: 25px;
+}
+
+.user-icon {
+  background: #ddd;
+  border-radius: 50%;
+  padding: 6px;
+  font-size: 25px;
+}
+
+.content {
+  flex: 1;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-area-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #1D5AF6;
+  background: white;
+  width: 100%;
+  max-width: 2800px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.input-text {
+  width: 50%;
+  border: none;
+  padding: 15px;
+  resize: none;
+  font-size: 25px;
+  border-right: 1px solid #1D5AF6;
+  outline: none;
+}
+
+.output-container {
+  width: 50%;
+  padding: 15px;
+  position: relative;
+}
+
+.summary-output {
+  min-height: 200px;
+}
+
+.word-count {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: gray;
+}
+
+.summarize-button {
+  background-color: #1D5AF6;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
