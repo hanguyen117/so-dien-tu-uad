@@ -32,10 +32,28 @@ git push origin frontend
 Nếu bạn muốn "thay thế" thẳng remote bằng code của bạn, bỏ qua các thay đổi trên remote (không khuyến nghị):
 git push --force origin frontend
 
---
+-- Đảm bảo git không theo dõi địa chỉ khác nếu lỗi merge
 git stash
 git pull --rebase origin frontend
 git stash pop
 git add .
 >> git commit -m "your message"
 >> git push origin frontend
+
+-- Run build and deploy
+-chạy lệnh: npm run build
+
+- cấu hình package.json:
+"homepage": "https://hanguyen117.github.io/so-dien-tu-uad",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
+- Chạy lệnh: 
+npm install gh-pages --save-dev
+npm run deploy
+
+--deploy:
+npm run build
+npm run deploy
