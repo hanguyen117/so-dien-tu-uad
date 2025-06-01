@@ -1,0 +1,73 @@
+.container {
+  width: 250px;
+  background-color: #f5f5f5;
+  border-right: 1px solid #ddd;
+  height: 100vh;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+.user-id-card {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+.user-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.75rem;
+}
+
+.user-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #5B65D3;
+  margin: 0.2rem 0;
+}
+
+.user-id,
+.user-major {
+  font-size: 0.85rem;
+  color: #5B65D3;
+  margin: 0.1rem 0;
+  font-weight: 500;
+}
+
+.menu-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.menu-bar > div {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #5B65D3;
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.menu-bar > div:hover {
+  background-color: #f3e8ff;
+}
+
+.menu-bar .icon {
+  width: 20px;
+  height: 20px;
+  color: #5B65D3;
+}
+
+.menu-bar .active {
+  background-color: #dacaec;
+  border-left: 4px solid #5B65D3;
+  padding-left: 0.5rem;
+  font-weight: 600;
+}

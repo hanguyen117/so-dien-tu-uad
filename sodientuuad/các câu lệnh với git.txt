@@ -1,0 +1,23 @@
+Các câu lệnh với git:
+
+Kiểm tra địa chỉ
+git remote -v
+
+Thay đổi địa chỉ
+git remote set-url origin https://github.com/ten-cua-ban/repo-moi.git
+
+Lệnh đẩy code
+git add .
+git commit -m "Cập nhật thay đổi"
+git push origin main
+
+Lệnh xóa
+git rm path/to/image.gif
+git commit -m "Xóa ảnh GIF cũ"
+git push origin main
+
+Lệnh đổi branch
+git checkout <branch>
+nhánh chưa tồn tại và muốn tạo mới
+git checkout -b <branch>
+

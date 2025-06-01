@@ -1,0 +1,51 @@
+import React from "react";
+import userAvt from "../assets/anh-dai-dien.png";
+import "./menubar.css";
+import { Calendar, User , LayoutDashboard , FileBarChart, Bell , CalendarCheck} from "lucide-react";
+
+function MenuBar() {
+  return (
+    <div className="container">
+      <div className="user-id-card">
+        <img src={userAvt} alt="User Avatar" className="user-image" />
+        <h2 className="user-name">Đặng Minh Anh</h2>
+        <h3 className="user-id">MSV <span className="fetch-user-id">A37708</span></h3>
+        <h3 className="user-major">Ngành <span className="fetch-user-major">Công nghệ thông tin</span></h3>
+      </div>
+
+      <div className="menu-bar">
+        <div className="dashboard active">
+          <LayoutDashboard className="icon" />
+          <span>Dashboard</span>
+        </div>
+
+        <div className="user-infor-panel">
+          <User className="icon" />
+          <span>Thông tin sinh viên</span>
+        </div>
+
+        <div className="schedule">
+          <Calendar className="icon" />
+          <span>Thời khóa biểu</span>
+        </div>
+
+        <div className="user-transcript">
+          <FileBarChart className="icon" />
+          <span>Kết quả học tập</span>
+        </div>
+
+        <div className="notification">
+          <Bell className="icon" />
+          <span>Thông báo</span>
+        </div>
+
+        <div className="exam-schedule">
+          <CalendarCheck className="icon" />
+          <span>Lịch thi</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default MenuBar;
