@@ -21,3 +21,21 @@ git checkout <branch>
 nhánh chưa tồn tại và muốn tạo mới
 git checkout -b <branch>
 
+Kiểm tra trạng thái thay đổi:
+git status
+git add .
+git add path/to/file
+git commit -m "Mô tả thay đổi"
+git pull --rebase origin frontend
+git push origin frontend
+
+Nếu bạn muốn "thay thế" thẳng remote bằng code của bạn, bỏ qua các thay đổi trên remote (không khuyến nghị):
+git push --force origin frontend
+
+--
+git stash
+git pull --rebase origin frontend
+git stash pop
+git add .
+>> git commit -m "your message"
+>> git push origin frontend
