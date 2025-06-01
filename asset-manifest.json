@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/so-dien-tu-uad/static/css/main.0b87c9ed.css",
+    "main.js": "/so-dien-tu-uad/static/js/main.ea4a8461.js",
+    "static/js/453.0d11dae6.chunk.js": "/so-dien-tu-uad/static/js/453.0d11dae6.chunk.js",
+    "static/media/anh-dai-dien.png": "/so-dien-tu-uad/static/media/anh-dai-dien.345e31c5349df5637af8.png",
+    "static/media/logo_image.jpg": "/so-dien-tu-uad/static/media/logo_image.564ac5c5ac80e7faa06a.jpg",
+    "index.html": "/so-dien-tu-uad/index.html",
+    "main.0b87c9ed.css.map": "/so-dien-tu-uad/static/css/main.0b87c9ed.css.map",
+    "main.ea4a8461.js.map": "/so-dien-tu-uad/static/js/main.ea4a8461.js.map",
+    "453.0d11dae6.chunk.js.map": "/so-dien-tu-uad/static/js/453.0d11dae6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b87c9ed.css",
+    "static/js/main.ea4a8461.js"
+  ]
+}
