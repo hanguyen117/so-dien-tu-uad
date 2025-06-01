@@ -3,14 +3,26 @@ import userAvt from "../assets/anh-dai-dien.png";
 import "./menubar.css";
 import { Calendar, User , LayoutDashboard , FileBarChart, Bell , CalendarCheck , Laptop} from "lucide-react";
 
-function MenuBar() {
+function MenuBar(/*{ student_database }*/) { //Thay tên db
   return (
     <div className="container">
       <div className="user-id-card">
+        {/* Phần này để demo */}
         <img src={userAvt} alt="User Avatar" className="user-image" />
         <h2 className="user-name">Đặng Minh Anh</h2>
         <h3 className="user-id">MSV <span className="fetch-user-id">A37708</span></h3>
         <h3 className="user-major">Ngành <span className="fetch-user-major">Công nghệ thông tin</span></h3>
+        {/* Phần này dùng API khi có db */}
+        {/* 
+        <img
+          src={student.avatar || userAvt}  // fallback nếu không có ảnh
+          alt="User Avatar"
+          className="user-image"
+        />
+        <h2 className="user-name">{student.name}</h2>
+        <h3 className="user-id">MSV <span className="fetch-user-id">{student.id}</span></h3>
+        <h3 className="user-major">Ngành <span className="fetch-user-major">{student.major}</span></h3>
+         */}
       </div>
 
       <div className="menu-bar">

@@ -1,0 +1,99 @@
+/* Container chung */
+.content-box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  width: 70%;
+}
+
+/* Chào người dùng */
+.greeting {
+  color: #d10068;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Tabs nhiệm vụ */
+.task-boxes {
+  display: flex;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.tab-box {
+  padding: 12px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 6px 6px 0 0;
+  margin-right: 10px;
+  background-color: #f2f2f2;
+  color: #333;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.tab-box:hover {
+  background-color: #e0e0e0;
+}
+
+/* Khi tab đang active */
+.tab-box.active {
+  background-color: #33c481;
+  color: white;
+  border-color: #33c481;
+  border-bottom: 2px solid white;
+}
+
+/* Vùng hiển thị nội dung task theo tab */
+.dropdown-choosen-taskbox {
+  padding: 20px 10px;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 0 0 10px 10px;
+}
+
+/* Thông báo */
+.recent-notifications {
+  margin-top: 40px;
+}
+
+.recent-notifications h3 {
+  color: #d10068;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.days-filter {
+  float: right;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+}
+
+/* Bảng thông báo */
+.notify-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.notify-table thead {
+  background-color: #f2f2f2;
+}
+
+.notify-table th,
+.notify-table td {
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.notify-table th {
+  color: #a30bb3;
+}
