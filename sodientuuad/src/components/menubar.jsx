@@ -1,7 +1,7 @@
 import React from "react";
 import userAvt from "../assets/anh-dai-dien.png";
 import "./menubar.css";
-import { Calendar, User , LayoutDashboard , FileBarChart, Bell , CalendarCheck} from "lucide-react";
+import { Calendar, User , LayoutDashboard , FileBarChart, Bell , CalendarCheck , Laptop} from "lucide-react";
 
 function MenuBar() {
   return (
@@ -42,6 +42,12 @@ function MenuBar() {
         <div className="exam-schedule">
           <CalendarCheck className="icon" />
           <span>Lịch thi</span>
+        </div>
+
+        <h2 className="label">Workplace của bạn</h2>
+        <div className="user-planning">
+          <Laptop className="icon" />
+          <span>Kế hoạch</span>
         </div>
       </div>
     </div>

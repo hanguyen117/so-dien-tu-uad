@@ -25,16 +25,17 @@
 .user-name {
   font-size: 1rem;
   font-weight: 700;
-  color: #5B65D3;
+  color: #2f3bbb;
   margin: 0.2rem 0;
+  text-transform: uppercase;
 }
 
 .user-id,
 .user-major {
   font-size: 0.85rem;
-  color: #5B65D3;
-  margin: 0.1rem 0;
-  font-weight: 500;
+  color: #2f3bbb;
+  margin: 0.5rem 0;
+  font-weight: 700;
 }
 
 .menu-bar {
@@ -70,4 +71,12 @@
   border-left: 4px solid #5B65D3;
   padding-left: 0.5rem;
   font-weight: 600;
+}
+
+.label{
+  font-size: 1rem;
+  font-weight: 700;
+  color: #2432c7;
+  margin: 0.2rem 0;
+  text-transform: uppercase;
 }
